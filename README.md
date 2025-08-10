@@ -13,4 +13,4 @@ is not actually needed. You may first need to execute `chmod +x mvnw`.
 
 Once the runtime starts, you can access the project at [http://localhost:8080/jakartaee-hello-restful-web](http://localhost:8080/jakartaee-hello-restful-web).
 
-## Done as a execise.
+## Done as an code sample for Jakarta EE 10
