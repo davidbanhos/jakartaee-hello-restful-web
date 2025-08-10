@@ -13,4 +13,20 @@ is not actually needed. You may first need to execute `chmod +x mvnw`.
 
 Once the runtime starts, you can access the project at [http://localhost:8080/jakartaee-hello-restful-web](http://localhost:8080/jakartaee-hello-restful-web).
 
-## Done as an code sample for Jakarta EE 10
+# Docker
+
+### Building docker image
+```
+docker build -t jakartaee-hello-restful-web .`
+```
+### Running docker image
+```
+docker run -p 8080:8080 jakartaee-hello-restful-web
+```
+
+### Creating user on ApplicationRealm (autentication)
+You can create a user for the ApplicationRealm by executing the following command in the running container:
+```
+docker exec -it <container_id> /opt/jboss/wildfly/bin/add-user.sh
+```
+
