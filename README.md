@@ -17,7 +17,7 @@ Once the runtime starts, you can access the project at [http://localhost:8080/ja
 
 ### Building docker image
 ```
-docker build -t jakartaee-hello-restful-web .`
+docker build -t jakartaee-hello-restful-web .
 ```
 ### Running docker image
 ```
